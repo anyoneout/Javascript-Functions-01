@@ -43,6 +43,7 @@ console.log("We'll all fall down and go boom, boom, (boom), boom!");
 console.log("We're sitting on the edge of doom (doom) (doom) (doom) doom!");
 }
 
+console.log(song());
 
 
 
