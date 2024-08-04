@@ -1,10 +1,21 @@
+function aAndE(){
+  return "Atom and Evil";
+}
+
+function ifYouDont(){
+  return "If you don't break up that romance soon"
+}
+
+function allFallDown(){
+  return "We'll all fall down and go boom, boom, boom!"
+}
 
 function refrain() {
   let refrainLyrics = "";
-  refrainLyrics += "I'm talkin' 'bout Atom, and Evil\n"
-  refrainLyrics += "Atom and Evil\n"
-  refrainLyrics += "If you don't break up that romance soon\n"
-  refrainLyrics += "We'll all fall down and go boom, boom, boom!\n"
+  refrainLyrics += `I'm talkin' 'bout ${aAndE()}\n`
+  refrainLyrics += `${aAndE()}\n`
+  refrainLyrics += `${ifYouDont()}\n`
+  refrainLyrics += `${allFallDown()}\n`
   return refrainLyrics;
 }
 function verseOne() {
@@ -16,8 +27,8 @@ function verseOne() {
   return verseOneLyrics;
 }
 function verseTwo() {
-  let verseTwoLyrics = ""
-  verseTwoLyrics += "This is the story of Atom and Evil\n"
+  let verseTwoLyrics = "";
+  verseTwoLyrics += `This is the story of ${aAndE()}\n`
   verseTwoLyrics += "Their courtship is causin' a great upheaval\n"
   verseTwoLyrics += "Now Atom was a sweet young innocent thing\n"
   verseTwoLyrics += "Until the night that Miss Evil took him under her wing\n"
@@ -38,24 +49,24 @@ function verseFour() {
   verseFourLyrics += "Because a-plenty of big shots are playin' that dame\n"
   verseFourLyrics += "Now his sleep will be troubled, and his life will be cursed\n"
   verseFourLyrics += "Lord, if Atom plays with evil, Jack, he won't be the first!\n"
-  verseFourLyrics += "(So true!)\n\n"
+  verseFourLyrics += "(So true!)\n"
   return verseFourLyrics;
 }
 function verseFive() {
   let verseFiveLyrics = "";
   verseFiveLyrics += "Now Atom is a youngster and pretty hard to handle\n"
   verseFiveLyrics += "But we better step in and stop that scandal\n"
-  verseFiveLyrics += "Because if Atom and Evil should ever be wed\n"
+  verseFiveLyrics += `Because if ${aAndE()} should ever be wed\n`
   verseFiveLyrics += "Lord, then darn near all of us are goin' to be dead!\n"
-  verseFiveLyrics += "(So True)\n\n"
+  verseFiveLyrics += "(So True)\n"
   return verseFiveLyrics;
 }
 function verseSix() {
   let verseSixLyrics = "";
-  verseSixLyrics += "Atom and Evil\n"
-  verseSixLyrics += "Atom and Evil\n"
-  verseSixLyrics += "If you don't break up that romance soon\n"
-  verseSixLyrics += "We'll all fall down and go boom, boom, (boom), boom!\n"
+  verseSixLyrics += `${aAndE()}\n`
+  verseSixLyrics += `${aAndE()}\n`
+  verseSixLyrics += `${ifYouDont()}\n`
+  verseSixLyrics += `${allFallDown()}\n`
   verseSixLyrics += "We're sitting on the edge of doom (doom) (doom) (doom) doom!\n"
   return verseSixLyrics;
 }
