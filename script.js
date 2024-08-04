@@ -7,6 +7,7 @@ function playSong() {
 console.log("Hello World");
 
 songButton.onclick = playSong;
+lyricsButton.onclick = song;
 
 function aAndE(){
   return "Atom and Evil";
@@ -101,5 +102,5 @@ function song() {
   lyrics.innerHTML += verseSix();
 }
 
-song();
+
 
