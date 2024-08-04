@@ -1,12 +1,13 @@
 
 function refrain () {
   let refrainLyrics = "";
-  refrainLyrics += "I'm talkin' 'bout Atom, and Evil\n"
-  refrainLyrics += "Atom and Evil\n"
-  refrainLyrics += "If you don't break up that romance soon\n"
-  refrainLyrics += "We'll all fall down and go boom, boom, boom!\n"
+  refrainLyrics += "I'm talkin' 'bout Atom, and Evil\n";
+  refrainLyrics += "Atom and Evil\n";
+  refrainLyrics += "If you don't break up that romance soon\n";
+  refrainLyrics += "We'll all fall down and go boom, boom, boom!\n";
   return refrainLyrics;
 }
+
 function song(){
   console.log("Now brothers and sisters");
   console.log("I'm troubled to say");
@@ -20,7 +21,7 @@ function song(){
   console.log("He wanted to help out the human clan");
   console.log("But Evil got him drunk on prejudice and hate");
   console.log("And she taught him how to gamble with Humanity's fate");
-  console.log("(So true!)")
+  console.log("(So true!)");
   console.log(refrain());
   console.log("Now if Evil gets Atom, 'twill be such a shame");
   console.log("Because a-plenty of big shots are playin' that dame");
