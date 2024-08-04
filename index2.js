@@ -1,3 +1,4 @@
+console.log("Hello World");
 
 function refrain () {
   let refrainLyrics = "";

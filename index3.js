@@ -1,3 +1,5 @@
+console.log("Hello World");
+
 function aAndE(){
   return "Atom and Evil";
 }

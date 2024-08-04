@@ -4,6 +4,7 @@ function playSong() {
     liveSong.play()
 }
 
+console.log("Hello World");
 
 songButton.onclick = playSong;
 

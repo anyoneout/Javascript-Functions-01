@@ -1,3 +1,5 @@
+console.log("Hello World");
+
 function imTalkinBoutAtom(){
   console.log("I'm talkin' 'bout Atom, and Evil");
   console.log("Atom and Evil");
