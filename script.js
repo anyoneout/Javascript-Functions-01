@@ -6,8 +6,8 @@ function playSong() {
 
 console.log("Hello World");
 
-songButton.onclick = playSong;
-lyricsButton.onclick = song;
+songButton.addEventListener("click",playSong);
+lyricsButton.addEventListener("click", song);
 
 function aAndE(){
   return "Atom and Evil";
