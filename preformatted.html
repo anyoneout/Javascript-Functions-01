@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preformatted Text in HTML</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: helvetica;}
+  </style>
+</head>
+<body>
+  <h1>Preformatted Text in HTML</h1>
+  <main>
+    <section>
+      <h2>Code examples</h2>
+      <h3>Raw description</h3>
+            The pre HTML element represents 
+        preformatted text which is to be presented 
+          exactly as written in the HTML 
+            file. The text is typically rendered 
+              using a non-proportional, or monospaced, font. 
+                Whitespace inside this element is displayed 
+                  as written.
+        <br>
+      <h3>Preformatted Description</h3>
+      <pre>The pre HTML element represents 
+        preformatted text which is to be presented 
+          exactly as written in the HTML 
+            file. The text is typically rendered 
+              using a non-proportional, or monospaced, font. 
+                Whitespace inside this element is displayed 
+                  as written.</pre>
+</section>
+<section>
+                  <h3>Raw Javascript</h3>
+        function aAndE(){
+        return "Atom and Evil";
+      }
+      
+      function ifYouDont(){
+        return "If you don't break up that romance soon"
+      }
+      
+      function allFallDown(){
+        return "We'll all fall down and go boom, boom, boom!"
+      }
+      
+      function refrain() {
+        let refrainLyrics = "";
+        refrainLyrics += `I'm talkin' 'bout ${aAndE()}\n`
+        refrainLyrics += `${aAndE()}\n`
+        refrainLyrics += `${ifYouDont()}\n`
+        refrainLyrics += `${allFallDown()}\n`
+        return refrainLyrics;
+      }
+      <h3>Preformatted Javascript</h3>
+      <pre>
+        function aAndE(){
+          return "Atom and Evil";
+        }
+        
+        function ifYouDont(){
+          return "If you don't break up that romance soon"
+        }
+        
+        function allFallDown(){
+          return "We'll all fall down and go boom, boom, boom!"
+        }
+        
+        function refrain() {
+          let refrainLyrics = "";
+          refrainLyrics += `I'm talkin' 'bout ${aAndE()}\n`
+          refrainLyrics += `${aAndE()}\n`
+          refrainLyrics += `${ifYouDont()}\n`
+          refrainLyrics += `${allFallDown()}\n`
+          return refrainLyrics;
+        }
+      </pre>
+    </section>
+  </main>
+  
+</body>
+</html>
